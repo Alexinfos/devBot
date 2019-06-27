@@ -14,7 +14,7 @@ Here is a quick guide to help you setup DevBot.
 ## Dependencies
 
  - [discord.py](https://github.com/Rapptz/discord.py) (tested with v1.2.3)
- - [emoji](https://pypi.org/project/emoji/) (tested with v0.5.2)
+ - [emoji](https://github.com/carpedm20/emoji/) (tested with v0.5.2)
 
 ## Setting environment up
 
