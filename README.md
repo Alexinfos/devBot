@@ -27,7 +27,7 @@ Here is a quick guide to help you setup DevBot.
  3. Clone repository:
 
 >     git clone https://github.com/Alexinfos/devBot.git
- 4. Go to the [Discord Developper Portal](https://discordapp.com/developers/applications/) and create a new app.
+ 4. Go to the [Discord Developer Portal](https://discordapp.com/developers/applications/) and create a new app.
 
  5. Select the "Bot" option on the left menu.
 
@@ -39,11 +39,11 @@ Here is a quick guide to help you setup DevBot.
  
  9. Create a debug channel on your discord test server, where the bot will print debug messages.
  
- 10. Enable "Developper Mode" in your Discord Client (Settings > Appearance >  Advanced > Developper Mode), right-click on your newly-created debug channel to open the context menu and click "Copy ID".
+ 10. Enable "Developer Mode" in your Discord Client (Settings > Appearance >  Advanced > Developer Mode), right-click on your newly-created debug channel to open the context menu and click "Copy ID".
  
  11. Go back to the "main.py" file and edit line 16 `test_channel = 0000` where "0000" is replaced with the channel id you just copied.
  
- 12. Go back to the [Discord Developper Portal](https://discordapp.com/developers/applications/) and click the "OAuth2" option on the left menu, then under "SCOPES" check the "bot" option.
+ 12. Go back to the [Discord Developer Portal](https://discordapp.com/developers/applications/) and click the "OAuth2" option on the left menu, then under "SCOPES" check the "bot" option.
  
  13. You can then choose which permissions you want to give to your bot under "BOT PERMISSIONS" (I recommend you at least check all "TEXT PERMISSIONS").
  
